@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
+
+</head>
+<header>
+    <img id="logo1" src="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png"
+            alt="logo">
+</header>
+<body id="dt">
+    <div class="cen">
+        <h2 class="spc">MGM's College of Engineering Nanded</h2>
+        <h1 class="spc">Sign up</h1>
+        <form action="signupdb.php" method="post">
+            <div class="txt_field">
+                <input type="text" name="unam" placeholder="Create username" required>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="pann" placeholder="Create password" required>
+            </div>
+            <div class="txt_field">
+                <input type="tel" name="num" placeholder="Enter phone number" required>
+            </div>
+            <input type="submit" id="subbtn" value="submit">
+            <br>
+            <div class="signup_link , signup_link">
+                Already have account? <a href="login.html">Login</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

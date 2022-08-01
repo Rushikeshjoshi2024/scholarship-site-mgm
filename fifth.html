@@ -1,0 +1,254 @@
+<!-- Fifth page html code -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png"
+        type="image/icon type">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<title>
+    Past Qualification Information
+</title>
+<header id="heading">
+    <center>
+
+        <h1>Mahatma Gandhi Mission's College of engineering Nanded scholorship portal </h1>
+        <em>
+            <h2>Near airport ,Hingoli road ,Nanded 431605</h2>
+        </em>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png"
+            alt="logo">
+    </center>
+</header>
+<hr class="hrline">
+<hr class="hrline">
+<btn id="fbtn">
+    <a href="first.html" class="btn">
+        <button class="btn">Personal Information</button>
+    </a>
+</btn>
+<btn id="sbtn">
+    <a href="second.html" class="btn">
+        <button class="btn"> Address Information </button>
+    </a>
+</btn>
+<btn id="tbtn">
+    <a href="third.html" class="btn">
+        <button class="btn">Other Information </button>
+    </a>
+</btn>
+<btn id="fobtn">
+    <a href="fourth.html" class="btn">
+        <button class="btn">Course Details </button>
+    </a>
+</btn>
+<btn id="fibtn">
+    <a href="fifth.html" class="btn">
+        <button class="btn">Past Qualification </button>
+    </a>
+</btn>
+<btn id="sibtn">
+    <a href="sixth.html" class="btn">
+        <button class="btn">Hostel Details </button>
+    </a>
+</btn>
+
+<body id="bgimg">
+    <title>Past Qualification Information</title>
+    <form action="fifthdb.php" method="post">
+        <hr class="hrline">
+        <hr class="hrline">
+
+        <center>
+            <h2 class="h2">Past Qualification Information</h2>
+        </center>
+        <section id="sec1" class="scolor">
+            <h3><b> &nbsp;Past Qualification Information </b></h3>
+            <hr class="hrline">
+            <sp class="sp">
+                <qual id="qual"> Qualification Level:<b id="star">*</b> <select name="qual_level" required>
+                        <option value=""> Select </option>
+                        <option value="10th"> 10th </option>
+                        <option value="12th"> 12th</option>
+                        <option value="Certificate course"> Certificate course</option>
+                        <option value="DUAL Degree"> DUAL Degree</option>
+                        <option value="11th"> F.Y.J.C(11th)</option>
+                        <option value="Ph.D"> Ph.D</option>
+                        <option value="Under Graduate Course"> Under Graduate Course</option>
+                        <option value="Post Graduate Course"> Post Graduate Course</option>
+                        <option value="Vocational Course"> Vocational Course</option>
+                        <option value="Diploma">Diploma</option>
+                    </select></qual>
+            </sp>
+
+            <str id="str"> Stream:<b id="star">*</b> <select name="stre" required>
+                    <option value=""> Select </option>
+                    <option value="Engineering"> Engineering </option>
+                    <option value="Science"> Science</option>
+                    <option value="Commerce"> Commerce </option>
+                    <option value="Art"> Art</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Education">Education</option>
+                    <option value="Law">Law</option>
+                    <option value="MCA">MCA</option>
+                    <option value="Management">Management</option>
+                    <option value="Fine Art">Fine Art</option>
+                </select></str>
+
+            Completed:<b id="star">*</b> <select name="comp" required>
+                <option value=""> Select</option>
+                <option value="Completed"> COMPLETED</option>
+            </select><br><br>
+            <sp class="sp">
+                <inssta id="inssta"> Instituate State:<b id="star">*</b> <select name="ins_stat" required>
+                        <option value=""> Select </option>
+                        <option value="Maharashtra"> Maharashtra </option>
+                        <option value="Madhya Pradesh"> Madhya Pradesh</option>
+                        <option value="Punjab"> Punjab </option>
+                        <option value="Rajasthan"> Rajasthan</option>
+                        <option value="Karnataka"> Karnataka </option>
+                        <option value="Sikkim"> Sikkim</option>
+                        <option value="Delhi"> Delhi</option>
+                        <option value="Tamil Nadu"> Tamil Nadu</option>
+                        <option value="West Bangal"> West Bangal</option>
+                        <option value="Gujrat"> Gujrat</option>
+                        <option value="Kerla"> Kerla</option>
+                    </select></inssta>
+            </sp>
+
+            <insd id="insd"> Instituate district:<b id="star">*</b> <select name="ins_dist" required>
+                    <option value=""> Select </option>
+                    <option value="Aurangabad"> Aurangabad </option>
+                    <option value="Nanded"> Nanded </option>
+                    <option value="Nashik"> Nashik </option>
+                    <option value="Parbhani"> Parbhani</option>
+                    <option value="Latur"> Latur </option>
+                    <option value="Kolhapur"> Kolhapur</option>
+                    <option value="Solapur"> Solapur</option>
+                    <option value="Mumbai"> Mumbai</option>
+                    <option value="Thane"> Thane</option>
+                    <option value="Ratnagiri"> Ratnagiri</option>
+                    <option value="Raigadh"> Raigadh</option>
+                    <option value="Nagpur"> Nagpur</option>
+                    <option value="Amravati"> Amravati</option>
+                </select></insd>
+
+            Instituate Taluka:<b id="star">*</b> <select name="ins_taluka" required>
+                <option value=""> Select </option>
+                <option value="LOHA"> LOHA </option>
+                <option value="Mudkhed"> Mudkhed </option>
+                <option value="Naigaon"> Naigaon</option>
+                <option value="Mukhed"> Mukhed </option>
+                <option value="KANDHAR">KANDHAR </option>
+                <option value="Dharmabad">Dharmabad </option>
+                <option value="Kandhar">Kandhar </option>
+                <option value="Nanded">Nanded </option>
+            </select><br><br>
+
+            <sp class="sp">
+                <cnsn id="cnsn"> College Name /School Name:<b id="star">*</b> <input type="text" name="coll_name"
+                        required>
+                </cnsn>
+            </sp>
+
+            <c id="c">Course: <select name="cour">
+                    <option value=""> Select </option>
+                    <option value="HSC"> HSC </option>
+                    <option value="SSC"> SSC </option>
+                    <option value="Diploma"> Diploma </option>
+                </select></c>
+
+            Board/University:<b id="star">*</b> <select name="university" required>
+                <option value=""> Select </option>
+                <option value="CBSC"> CBSC </option>
+                <option value="MSBSHSE"> MSBSHSE </option>
+            </select>
+            <br><br>
+
+            <sp class="sp">Mode: <select name="mod" required>
+                    <option value=""> Select </option>
+                    <option value="REGULAR"> Regular </option>
+                    <option value="GAP"> Gap </option>
+                </select></sp><br><br>
+
+            <sp class="sp">
+                <ay id="ay"> Admission year:<b id="star">*</b> <select name="adyear" required>
+                        <option value=""> Select </option>
+                        <option value="2010"> 2010 </option>
+                        <option value="2011"> 2011 </option>
+                        <option value="2012"> 2012 </option>
+                        <option value="2013"> 2013</option>
+                        <option value="2014"> 2014 </option>
+                        <option value="2015"> 2015 </option>
+                        <option value="2016"> 2016 </option>
+                        <option value="2017"> 2017 </option>
+                        <option value="2018"> 2018 </option>
+                        <option value="2019"> 2019</option>
+                        <option value="2020"> 2020 </option>
+                        <option value="2021"> 2021 </option>
+                        <option value="2022"> 2022 </option>
+                    </select></ay>
+            </sp>
+
+            <py id="py"> Passing Year:<b id="star">*</b> <select name="passyear" required>
+                    <option value=""> Select </option>
+                    <option value="2010"> 2010 </option>
+                    <option value="2011"> 2011 </option>
+                    <option value="2012"> 2012 </option>
+                    <option value="2013"> 2013</option>
+                    <option value="2014"> 2014 </option>
+                    <option value="2015">2015 </option>
+                    <option value="2016"> 2016 </option>
+                    <option value="2017"> 2017 </option>
+                    <option value="2018"> 2018 </option>
+                    <option value="2019"> 2019</option>
+                    <option value="2020"> 2020 </option>
+                    <option value="2021"> 2021 </option>
+                    <option value="2022"> 2022 </option>
+                    <option value="2023"> 2023 </option>
+                    <option value="2024"> 2024 </option>
+                    <option value="2025"> 2025 </option>
+                    <option value="2026"> 2026 </option>
+                </select></py>
+
+            Result:<b id="star">*</b> <select name="result" required>
+                <option value=""> Select </option>
+                <option value="passed"> Passed </option>
+                <option value="Failed"> Failed </option>
+            </select><br><br>
+
+            <sp class="sp">
+                <per id="per"> Percentage:<b id="star">*</b> <input type="Number" name="percen" required></per>
+            </sp>
+
+            <att id="att">Attempts: <input type="number" name="attempt"></att>
+
+            Upload Marksheet:<b id="star">*</b> <input type="file" required><br><br>
+
+            <sp class="sp">
+                Was Any Gap In This Qualification?<b id="star" required>*</b>
+                <input type="radio" name="any_gap" value="Yes" id="y">
+                <label for="y">Yes</label>
+                <input type="radio" name="any_gap" value="No" id="n">
+                <label for="n">No</label>
+            </sp>
+            <br><br>
+
+        </section>
+        <hr class="hrline">
+        <hr class="hrline">
+        <br><br>
+        <center>
+            <input type="submit" class="btmbtn" value="  Save ">&emsp;<right><input type="reset" class="btmbtn">
+        </center>
+    </form>
+    <br>
+    <br>
+</body>
+
+</html>

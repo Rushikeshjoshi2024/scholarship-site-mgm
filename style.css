@@ -1,0 +1,352 @@
+/* All html pages css code  */
+/*<---------------------------------------------- first page ---------------------------------------------->  */
+#col {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 0.6cm;
+    color: rgb(32, 31, 31);
+    outline: 2px solid #F77672;
+    outline-offset: 0px;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+#heading {
+    line-height: 3cm;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 7px red;
+
+}
+
+.h2 {
+    line-height: 0.1cm;
+}
+
+#star {
+    color: red;
+}
+
+#sec1 {
+    line-height: 0.9cm;
+}
+
+#sec2 {
+    line-height: 1.5cm;
+}
+
+.scolor {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 5px;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.sec3 {
+    line-height: 1.1cm;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 5px;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.hrline {
+    background-color: #6341d0;
+    background-image: linear-gradient(43deg, #6341d0 3%, #c850ba 34%, #70ffdd 67%, #ffffff 100%);
+    border-width: 2px;
+}
+
+#bgimg {
+    
+    background-image: linear-gradient(90deg, rgb(181, 250, 197) 30%, rgb(162, 250, 198) 55.7%, rgb(166, 250, 190) 81.8%);
+
+} 
+
+/*<--------------------------- padding ------------------------------->*/
+.sp {
+    padding-left: 10px;
+}
+
+#newcom {
+    padding-left: 50px;
+
+}
+
+#comment {
+    border: 3px;
+    padding-left: 1150px;
+}
+
+#age {
+    border: 3px;
+    padding-right: 67px;
+    padding-left: 100px;
+}
+
+#gen {
+    border: 3px;
+    padding-right: 0px;
+    padding-left: 155px;
+    ;
+}
+
+#pare {
+    border: 3px;
+    padding-right: 130px;
+    padding-left: 85px;
+}
+
+#ms {
+    border: 3px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#icn {
+    border: 3px;
+    padding-right: 294px;
+    padding-left: 000px;
+}
+
+#ID {
+    border: 3px;
+    padding-right: 293px;
+    padding-left: 00px;
+}
+
+#ia {
+    border: 3px;
+    padding-right: 290px;
+    padding-left: 00px;
+}
+
+#dom {
+    border: 3px;
+    padding-right: 160px;
+    padding-left: 00px;
+}
+
+#dc {
+    border: 3px;
+    padding-right: 280px;
+    padding-left: px;
+}
+
+#dcn {
+    border: 3px;
+    padding-right: 200px;
+    padding-left: 00px;
+}
+
+#an {
+    border: 3px;
+    padding-right: 305px;
+    padding-left: 150px;
+}
+
+#salary {
+    border: 3px;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+
+#bankd {
+    border: 3px;
+    padding-right: 385px;
+    padding-left: 0px;
+}
+
+#ifsc {
+    border: 3px;
+    padding-right: 380px;
+    padding-left: 0px;
+}
+
+/*<---------------------------- button --------------------------------->*/
+.btn {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active, .btn:hover {
+    background-color: transparent;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+
+#fbtn {
+    padding-left: 10px;
+    padding-right: 115px;
+}
+
+#sbtn {
+    padding-left: 0px;
+    padding-right: 115px;
+}
+
+#tbtn {
+    padding-left: 0px;
+    padding-right: 115px;
+}
+
+#fobtn {
+    padding-left: 0px;
+    padding-right: 115px;
+}
+
+#fibtn {
+    padding-left: 0px;
+    padding-right: 115px;
+}
+
+/*<---------------------------- MGM Logo --------------------------------->*/
+
+#logo {
+    position:relative;
+
+    padding-bottom: 20px;
+    padding-top: 3px;
+    height: 100px;
+    width: 102px;
+}
+
+/*<-------------------------- Header img ----------------------------------->*/
+#heading {
+    background-image: url("https://i.ytimg.com/vi/a0zP8MWIF6I/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1800px 540px;
+    border-radius: 5px;
+}
+
+#heading img {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+
+.btmbtn {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.active, .btmbtn:hover {
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+/*<---------------------------------------------- second page ---------------------------------------------->  */
+
+.add {
+    padding-left: 10px;
+    padding-right: 450px;
+}
+
+.tal {
+    padding-left: 10px;
+    padding-right: 443px;
+}
+
+/*<----------------------------------------------- third page ---------------------------------------------->  */
+.fa {
+    padding-left: 10px;
+    padding-right: 240px;
+}
+
+.fn {
+    padding-right: 240px;
+
+}
+
+.occ {
+    padding-right: 240px;
+
+}
+
+/*<---------------------------------------------- fourth page ---------------------------------------------->  */
+#adcc{
+    padding-right: 450px;
+}
+
+#is{
+    padding-right: 322px;
+}
+#it{
+    padding-right: 526px;
+}
+#ql{
+    padding-right: 241px;
+
+}
+#colname{
+    padding-right: 287px;
+
+}
+#corname{
+    padding-right: 234px;
+
+}
+#cetper{
+    padding-right: 330px;
+
+}
+#ai{
+    padding-right: 210px;
+
+}
+#yos{
+    padding-right: 532px;
+
+}
+#coc{
+    padding-right: 305px;
+
+}
+#cat{
+    padding-right: 327px;
+
+}
+#gy{
+    padding-right: 403px;
+
+}
+/*<---------------------------------------------- fifth page ---------------------------------------------->  */
+#qual{
+    padding-right: 413px;
+
+}
+#str{
+    padding-right: 377px;
+
+}
+#inssta{
+    padding-right: 482px;
+}
+#insd{
+    padding-right: 322px;
+}
+#cnsn{
+    padding-right: 339px;
+}
+#c{
+    padding-right: 415px;
+}
+#ay{
+    padding-right: 542px;
+}
+#py{
+    padding-right: 382px;
+}
+#per{
+    padding-right: 455px;
+}
+#att{
+    padding-right: 298px;
+}
+/*<---------------------------------------------- sixth page ---------------------------------------------->  */
+h{
+    padding-right: 65px;
+}

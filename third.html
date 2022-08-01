@@ -1,0 +1,156 @@
+<!-- Third page html code -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png"
+        type="image/icon type">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<title>Other Information
+</title>
+<header id="heading">
+    <center>
+        <h1>Mahatma Gandhi Mission's College of engineering Nanded scholorship portal </h1>
+        <em>
+            <h2>Near airport ,Hingoli road ,Nanded 431605</h2>
+        </em>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png"
+            alt="logo">
+    </center>
+</header>
+<hr class="hrline">
+<hr class="hrline">
+<btn id="fbtn">
+    <a href="first.html" class="btn">
+        <button class="btn">Personal Information</button>
+    </a>
+</btn>
+<btn id="sbtn">
+    <a href="second.html" class="btn">
+        <button class="btn"> Address Information </button>
+    </a>
+</btn>
+<btn id="tbtn">
+    <a href="third.html" class="btn">
+        <button class="btn">Other Information </button>
+    </a>
+</btn>
+<btn id="fobtn">
+    <a href="fourth.html" class="btn">
+        <button class="btn">Course Details </button>
+    </a>
+</btn>
+<btn id="fibtn">
+    <a href="fifth.html" class="btn">
+        <button class="btn">Past Qualification </button>
+    </a>
+</btn>
+<btn id="sibtn">
+    <a href="sixth.html" class="btn">
+        <button class="btn">Hostel Details </button>
+    </a>
+</btn>
+
+<body id="bgimg">
+
+    <form action="thirddb.php" method="post">
+        <hr class="hrline">
+        <hr class="hrline">
+        <b>
+            <center>
+                <h2 class="h2"> Other Information </h2>
+            </center>
+        </b>
+        <!------------------------------------------- Parent's / Guardian's Deatils ---------------------------------------------->
+
+        <section id="sec1" class="scolor">
+            <h3><b>&nbsp; Parent's / Guardian's Deatils </b></h3>
+            <hr class="hrline">
+
+            <fa class="fa"> Is Father Alive ?<b id="star">*</b>
+                <input type="radio" name="abc" value="yes" id="ft">
+                <label for="ft">Yes</label>
+                <input type="radio" name="abc" value="no" id="al">
+                <label for="al">No</label>
+            </fa>
+
+            <fn class="fn">Father Name <b id="star">*</b>
+                <input type="text" name="fname" required>
+            </fn>
+
+
+            <occ class="occ">Occupation<b id="star">*</b>
+                <select name="occupation" required>
+                    <option value="">select &emsp;</option>
+                    <option value="Agriculture">Agriculture </option>
+                    <option value="Businessman">Businessman </option>
+                    <option value="Government servent">Government servent </option>
+                    <option value="Labour">Labour </option>
+                    <option value="businessman">businessman </option>
+                    <option value="Teacher">Teacher </option>
+                    <option value="Other">Other </option>
+                </select>
+            </occ>
+
+
+            Is salaried ?<b id="star">*</b>
+            <select name="salaried" required>
+                <option value="">Select &emsp;</option>
+                <option value="yes">Yes &emsp;</option>
+                <option value="no">No &emsp;</option>
+            </select>
+
+            <br>
+
+            <br>
+            <fa class="fa">Mother Alive ?<b id="star">*</b>
+                <input type="radio" name="xyz" value="yes" id="Alive">
+                <label for="Alive">Yes</label>
+                <input type="radio" name="xyz" value="no" id="died">
+                <label for="died">No</label>
+            </fa>
+
+            <fn class="fn">Mother Name <b id="star">*</b>
+                <input type="text" name="mname" required>
+            </fn>
+
+            <occ class="occ">Occupation <b id="star">*</b>
+                <select name="occ" required>
+                    <option value="">select &emsp;</option>
+                    <option value="Agriculture">Agriculture </option>
+                    <option value="Businessman">Businessman </option>
+                    <option value="Housewife">Housewife </option>
+                    <option value="Government servent">Government servent </option>
+                    <option value="Labour">Labour </option>
+                    <option value="businessman">businessman </option>
+                    <option value="Teacher">Teacher </option>
+                    <option value="Other">Other </option>
+                </select>
+            </occ>
+
+            Is salaried ?<b id="star">*</b>
+            <select name="salary" required>
+                <option value="">Select &emsp;</option>
+                <option value="Yes">Yes &emsp;</option>
+                <option value="No">No &emsp;</option>
+            </select>
+            <br>
+            <br>
+        </section>
+        <hr class="hrline">
+        <hr class="hrline">
+        <br>
+        <br>
+
+        <center>
+            <input type="submit" class="btmbtn" value="  Save ">&emsp;<input type="reset" class="btmbtn">
+        </center>
+
+    </form>
+</html>
+</body>
