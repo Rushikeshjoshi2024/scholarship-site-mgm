@@ -1,6 +1,8 @@
 # scholarship-site-mgm
 This is a scholarship website project created in MGMs college of engineering nanded.
 
+Note: Signup page,Login page and Forgot password page are having color changing background effect.
+
 Signup page
 ![Screenshot (2331)](https://user-images.githubusercontent.com/108232332/183235024-db7e11b2-dd0b-48ab-83ee-df8fb6d77674.png)
 
